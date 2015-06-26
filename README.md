@@ -9,6 +9,6 @@ run
 
 then
 
-	java -jar target/mvn-run-1.0-SNAPSHOT-jar-with-dependencies.jar ARTIFIACT_TO_LAUNCH MAIN_CLASS_TO_RUN
+	java -jar target/mvn-run-1.0-SNAPSHOT-jar-with-dependencies.jar ARTIFIACT_TO_LAUNCH
 
 Et voilà !
