@@ -51,12 +51,14 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
+							<finalName>mvnrun</finalName>
+                            <appendAssemblyId>false</appendAssemblyId>
 							<descriptorRefs>
 								<descriptorRef>jar-with-dependencies</descriptorRef>
 							</descriptorRefs>
 							<archive>
 								<manifest>
-									<mainClass>fr.lteconsulting.mvnrun.App</mainClass>
+									<mainClass>fr.lteconsulting.mvnrun.MavenRunApp</mainClass>
 									<packageName>fr.lteconsulting.mvnrun</packageName>
 								</manifest>
 							</archive>
