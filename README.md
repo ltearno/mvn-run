@@ -9,7 +9,7 @@ run
 
 then
 
-	java -jar target/mvn-run-1.0-SNAPSHOT-jar-with-dependencies.jar ARTIFIACT_TO_LAUNCH [OPTIONS]
+	java -jar target/mvnrun.jar ARTIFIACT_TO_LAUNCH [OPTIONS]
 
 on Windows, you can type
 
